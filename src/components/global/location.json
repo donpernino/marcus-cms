@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_global_locations",
+  "info": {
+    "displayName": "Location",
+    "icon": "map-pin"
+  },
+  "options": {},
+  "attributes": {
+    "Location": {
+      "type": "string"
+    }
+  }
+}

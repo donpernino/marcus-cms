@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_global_banner_headers",
+  "info": {
+    "displayName": "BannerHeader",
+    "icon": "heading"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string",
+      "required": true
+    },
+    "Description": {
+      "type": "richtext"
+    },
+    "Image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": true,
+      "required": true
+    }
+  }
+}

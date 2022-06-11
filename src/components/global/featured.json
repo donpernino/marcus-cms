@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_introduction_featureds",
+  "info": {
+    "displayName": "Featured",
+    "icon": "star",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "richtext"
+    },
+    "ImageLink": {
+      "displayName": "ImageLink",
+      "type": "component",
+      "repeatable": true,
+      "component": "global.image-link"
+    },
+    "NextEvent": {
+      "type": "component",
+      "repeatable": true,
+      "component": "events.next-event"
+    },
+    "Location": {
+      "type": "component",
+      "repeatable": true,
+      "component": "global.location"
+    }
+  }
+}

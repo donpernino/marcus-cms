@@ -1,0 +1,31 @@
+{
+  "kind": "singleType",
+  "collectionName": "homepages",
+  "info": {
+    "singularName": "homepage",
+    "pluralName": "homepages",
+    "displayName": "Homepage",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Banner": {
+      "type": "component",
+      "repeatable": true,
+      "component": "global.banner-header"
+    },
+    "HomepageDynamicZone": {
+      "type": "dynamiczone",
+      "components": [
+        "global.featured",
+        "events.next-event",
+        "global.location",
+        "global.contact",
+        "global.socials"
+      ]
+    }
+  }
+}

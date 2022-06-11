@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_global_socials",
+  "info": {
+    "displayName": "Socials",
+    "icon": "at"
+  },
+  "options": {},
+  "attributes": {
+    "FacebookLink": {
+      "type": "string"
+    },
+    "InstagramLink": {
+      "type": "string"
+    }
+  }
+}

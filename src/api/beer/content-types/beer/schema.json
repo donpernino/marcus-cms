@@ -1,0 +1,55 @@
+{
+  "kind": "collectionType",
+  "collectionName": "beers",
+  "info": {
+    "singularName": "beer",
+    "pluralName": "beers",
+    "displayName": "Beer",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Image": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Name": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "richtext"
+    },
+    "Type": {
+      "type": "enumeration",
+      "enum": [
+        "blanche",
+        "blonde",
+        "ambrée",
+        "brune",
+        "fruitée"
+      ]
+    },
+    "Specificity": {
+      "type": "richtext"
+    },
+    "Format": {
+      "type": "string"
+    },
+    "Alcohol": {
+      "type": "decimal"
+    },
+    "Country": {
+      "type": "string"
+    }
+  }
+}

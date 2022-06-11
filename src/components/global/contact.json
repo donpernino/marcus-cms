@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_global_contacts",
+  "info": {
+    "displayName": "Contact",
+    "icon": "phone"
+  },
+  "options": {},
+  "attributes": {
+    "Address": {
+      "type": "richtext"
+    },
+    "Phone": {
+      "type": "string"
+    }
+  }
+}
