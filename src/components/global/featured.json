@@ -18,16 +18,6 @@
       "type": "component",
       "repeatable": true,
       "component": "global.image-link"
-    },
-    "NextEvent": {
-      "type": "component",
-      "repeatable": true,
-      "component": "events.next-event"
-    },
-    "Location": {
-      "type": "component",
-      "repeatable": true,
-      "component": "global.location"
     }
   }
 }
