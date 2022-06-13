@@ -14,5 +14,7 @@ export interface Beer {
     Tireuse?: boolean;
     Promoted?: boolean;
     Slug?: string;
+    Location?: boolean;
+    Price?: string;
   }
 }

@@ -62,6 +62,13 @@
     "Slug": {
       "type": "uid",
       "targetField": "Name"
+    },
+    "Location": {
+      "type": "boolean",
+      "default": false
+    },
+    "Price": {
+      "type": "string"
     }
   }
 }
