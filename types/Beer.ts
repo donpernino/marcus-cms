@@ -11,5 +11,8 @@ export interface Beer {
     Format?: string;
     Alcohol?: number;
     Country?: string;
+    Tireuse?: boolean;
+    Promoted?: boolean;
+    Slug?: string;
   }
 }

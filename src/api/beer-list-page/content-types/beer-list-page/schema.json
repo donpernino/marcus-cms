@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "beer_list_pages",
+  "info": {
+    "singularName": "beer-list-page",
+    "pluralName": "beer-list-pages",
+    "displayName": "BeerListPage",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Banner": {
+      "type": "component",
+      "repeatable": false,
+      "component": "global.banner-header"
+    }
+  }
+}

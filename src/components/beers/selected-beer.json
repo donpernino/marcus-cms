@@ -1,0 +1,9 @@
+{
+  "collectionName": "components_beers_selected_beers",
+  "info": {
+    "displayName": "SelectedBeer",
+    "icon": "beer"
+  },
+  "options": {},
+  "attributes": {}
+}

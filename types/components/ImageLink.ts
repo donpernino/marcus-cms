@@ -5,4 +5,5 @@ export interface ImageLink {
   Image?: { data: Media };
   PageLink?: string;
   Text?: string;
+  Title?: string;
 }

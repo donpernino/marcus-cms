@@ -50,6 +50,18 @@
     },
     "Country": {
       "type": "string"
+    },
+    "Tireuse": {
+      "type": "boolean",
+      "default": false
+    },
+    "Promoted": {
+      "type": "boolean",
+      "default": false
+    },
+    "Slug": {
+      "type": "uid",
+      "targetField": "Name"
     }
   }
 }

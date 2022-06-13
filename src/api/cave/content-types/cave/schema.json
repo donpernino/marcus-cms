@@ -1,0 +1,33 @@
+{
+  "kind": "singleType",
+  "collectionName": "caves",
+  "info": {
+    "singularName": "cave",
+    "pluralName": "caves",
+    "displayName": "Cave",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Banner": {
+      "type": "component",
+      "repeatable": false,
+      "component": "global.banner-header"
+    },
+    "FeaturedBeers": {
+      "displayName": "FeaturedBeers",
+      "type": "component",
+      "repeatable": true,
+      "component": "beers.featured-beers"
+    },
+    "ImageList": {
+      "displayName": "ImageWithOrderedList",
+      "type": "component",
+      "repeatable": true,
+      "component": "global.image-with-ordered-list"
+    }
+  }
+}

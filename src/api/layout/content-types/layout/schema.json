@@ -4,7 +4,8 @@
   "info": {
     "singularName": "layout",
     "pluralName": "layouts",
-    "displayName": "Layout"
+    "displayName": "Layout",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -12,14 +13,25 @@
   "pluginOptions": {},
   "attributes": {
     "Logo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
+    },
+    "Contact": {
+      "type": "component",
+      "repeatable": true,
+      "component": "global.contact"
+    },
+    "Socials": {
+      "type": "component",
+      "repeatable": true,
+      "component": "global.socials"
     }
   }
 }
