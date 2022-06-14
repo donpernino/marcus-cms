@@ -1,0 +1,320 @@
+{
+  "key": "plugin_content_manager_configuration_content_types::api::beer.beer",
+  "value": {
+    "uid": "api::beer.beer",
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "mainField": "Name",
+      "defaultSortBy": "Name",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Image": {
+        "edit": {
+          "label": "Image",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Image",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "Name": {
+        "edit": {
+          "label": "Name",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Name",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Description": {
+        "edit": {
+          "label": "Description",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Description",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "Type": {
+        "edit": {
+          "label": "Type",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Type",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Specificity": {
+        "edit": {
+          "label": "Specificity",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Specificity",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "Format": {
+        "edit": {
+          "label": "Format",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Format",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Alcohol": {
+        "edit": {
+          "label": "Alcohol",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Alcohol",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Country": {
+        "edit": {
+          "label": "Country",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Country",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Tireuse": {
+        "edit": {
+          "label": "Tireuse",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Tireuse",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Promoted": {
+        "edit": {
+          "label": "Promoted",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Promoted",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Slug": {
+        "edit": {
+          "label": "Slug",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Slug",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Location": {
+        "edit": {
+          "label": "Location",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Location",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Price": {
+        "edit": {
+          "label": "Price",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Price",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "createdAt": {
+        "edit": {
+          "label": "createdAt",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true
+        },
+        "list": {
+          "label": "createdAt",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "updatedAt": {
+        "edit": {
+          "label": "updatedAt",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true
+        },
+        "list": {
+          "label": "updatedAt",
+          "searchable": true,
+          "sortable": true
+        }
+      }
+    },
+    "layouts": {
+      "edit": [
+        [
+          {
+            "name": "Image",
+            "size": 6
+          },
+          {
+            "name": "Name",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "Description",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "Type",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "Specificity",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "Format",
+            "size": 6
+          },
+          {
+            "name": "Alcohol",
+            "size": 4
+          }
+        ],
+        [
+          {
+            "name": "Country",
+            "size": 6
+          },
+          {
+            "name": "Tireuse",
+            "size": 4
+          }
+        ],
+        [
+          {
+            "name": "Promoted",
+            "size": 4
+          },
+          {
+            "name": "Slug",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "Location",
+            "size": 4
+          },
+          {
+            "name": "Price",
+            "size": 6
+          }
+        ]
+      ],
+      "editRelations": [],
+      "list": [
+        "id",
+        "Image",
+        "Name",
+        "Type",
+        "Tireuse",
+        "Promoted",
+        "Location"
+      ]
+    }
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

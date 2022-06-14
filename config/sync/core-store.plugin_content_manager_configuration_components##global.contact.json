@@ -1,0 +1,78 @@
+{
+  "key": "plugin_content_manager_configuration_components::global.contact",
+  "value": {
+    "uid": "global.contact",
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "mainField": "Phone",
+      "defaultSortBy": "Phone",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "Address": {
+        "edit": {
+          "label": "Address",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Address",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "Phone": {
+        "edit": {
+          "label": "Phone",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Phone",
+          "searchable": true,
+          "sortable": true
+        }
+      }
+    },
+    "layouts": {
+      "list": [
+        "id",
+        "Phone"
+      ],
+      "edit": [
+        [
+          {
+            "name": "Address",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "Phone",
+            "size": 6
+          }
+        ]
+      ],
+      "editRelations": []
+    },
+    "isComponent": true
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

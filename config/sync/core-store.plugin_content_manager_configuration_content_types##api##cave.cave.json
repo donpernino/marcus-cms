@@ -1,0 +1,127 @@
+{
+  "key": "plugin_content_manager_configuration_content_types::api::cave.cave",
+  "value": {
+    "uid": "api::cave.cave",
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "mainField": "id",
+      "defaultSortBy": "id",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Banner": {
+        "edit": {
+          "label": "Banner",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Banner",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "FeaturedBeers": {
+        "edit": {
+          "label": "FeaturedBeers",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "FeaturedBeers",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "ImageList": {
+        "edit": {
+          "label": "ImageList",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "ImageList",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "createdAt": {
+        "edit": {
+          "label": "createdAt",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true
+        },
+        "list": {
+          "label": "createdAt",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "updatedAt": {
+        "edit": {
+          "label": "updatedAt",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true
+        },
+        "list": {
+          "label": "updatedAt",
+          "searchable": true,
+          "sortable": true
+        }
+      }
+    },
+    "layouts": {
+      "edit": [
+        [
+          {
+            "name": "Banner",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "ImageList",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "FeaturedBeers",
+            "size": 12
+          }
+        ]
+      ],
+      "editRelations": [],
+      "list": [
+        "id",
+        "Banner",
+        "createdAt",
+        "updatedAt"
+      ]
+    }
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

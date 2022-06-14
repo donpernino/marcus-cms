@@ -1,0 +1,77 @@
+{
+  "key": "plugin_content_manager_configuration_components::global.socials",
+  "value": {
+    "uid": "global.socials",
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "mainField": "FacebookLink",
+      "defaultSortBy": "FacebookLink",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "FacebookLink": {
+        "edit": {
+          "label": "FacebookLink",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "FacebookLink",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "InstagramLink": {
+        "edit": {
+          "label": "InstagramLink",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "InstagramLink",
+          "searchable": true,
+          "sortable": true
+        }
+      }
+    },
+    "layouts": {
+      "list": [
+        "id",
+        "FacebookLink",
+        "InstagramLink"
+      ],
+      "edit": [
+        [
+          {
+            "name": "FacebookLink",
+            "size": 6
+          },
+          {
+            "name": "InstagramLink",
+            "size": 6
+          }
+        ]
+      ],
+      "editRelations": []
+    },
+    "isComponent": true
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}
