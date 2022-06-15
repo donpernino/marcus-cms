@@ -9,13 +9,18 @@
     "build": "strapi build",
     "strapi": "strapi",
     "t4s": "t4s",
-    "cs": "config-sync"
+    "cs": "config-sync",
+    "postinstall": "patch-package"
   },
   "dependencies": {
     "@strapi/plugin-i18n": "4.1.12",
     "@strapi/plugin-users-permissions": "4.1.12",
     "@strapi/strapi": "4.1.12",
     "better-sqlite3": "7.4.6",
+    "mysql": "^2.3.3",
+    "mysql2": "^2.3.3",
+    "patch-package": "^6.4.7",
+    "postinstall-postinstall": "^2.1.0",
     "strapi-plugin-config-sync": "^1.0.1",
     "strapi-plugin-import-export-entries": "^1.4.1",
     "strapi-plugin-populate-deep": "^0.1.2"
