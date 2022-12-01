@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_global_schedules",
+  "info": {
+    "displayName": "Schedule",
+    "icon": "calendar-alt"
+  },
+  "options": {},
+  "attributes": {
+    "schedule": {
+      "type": "richtext"
+    }
+  }
+}

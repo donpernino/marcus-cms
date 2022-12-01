@@ -24,7 +24,8 @@
         "events.next-event",
         "global.location",
         "global.contact",
-        "global.socials"
+        "global.socials",
+        "global.schedule"
       ]
     }
   }
